@@ -74,3 +74,12 @@ A manutenção e ajuste das ferramentas presentes no código
 devem ser feitas em seus respectivos arquivos, atentando
 apenas ao vínculo realizado com o arquivo principal
 (criptografia.java).
+
+=============== MEMBROS DO GRUPO (NOME + RM) ================
+
+Fabrício Saavedra - 97631
+Guilherme Akio - 98582
+Matheus Gusmão - 550826
+Matheus Motta - 550352
+Vinicius Buzato - 99125
+Guilherme Morais - 551981
