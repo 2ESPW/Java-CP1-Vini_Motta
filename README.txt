@@ -77,9 +77,5 @@ apenas ao vínculo realizado com o arquivo principal
 
 =============== MEMBROS DO GRUPO (NOME + RM) ================
 
-Fabrício Saavedra - 97631
-Guilherme Akio - 98582
-Matheus Gusmão - 550826
 Matheus Motta - 550352
 Vinicius Buzato - 99125
-Guilherme Morais - 551981
