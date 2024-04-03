@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class criptografia {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner menu = new Scanner(System.in);
 
         while (true) {
             System.out.println("\nEscolha a ferramenta desejada:");
@@ -10,18 +10,18 @@ public class criptografia {
             System.out.println("2 - Cifra de César");
             System.out.println("3 - Sair do programa");
 
-            String opcao = scanner.nextLine().trim();
+            String opcao = menu.nextLine().trim();
 
             switch (opcao) {
                 case "1":
-                    morse.main(scanner);
+                    morse.main(menu);
                     break;
                 case "2":
-                    cesar.main(scanner);
+                    cesar.main(menu);
                     break;
                 case "3":
                     System.out.println("Encerrando o programa. Até mais!");
-                    scanner.close();
+                    menu.close();
                     System.exit(0);
                 default:
                     System.out.println("Opção inválida. Por favor, escolha uma opção válida.");

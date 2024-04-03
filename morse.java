@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class morse {
-    public static void main(Scanner scanner) {
+    public static void main(Scanner mensagem) {
         String opcao;
 
         do {
@@ -10,14 +10,14 @@ public class morse {
             System.out.println("2 - Traduzir código Morse para texto");
             System.out.println("3 - Voltar para o menu principal");
 
-            opcao = scanner.nextLine().trim();
+            opcao = mensagem.nextLine().trim();
 
             switch (opcao) {
                 case "1":
-                    textoParaMorse(scanner);
+                    textoParaMorse(mensagem);
                     break;
                 case "2":
-                    morseParaTexto(scanner);
+                    morseParaTexto(mensagem);
                     break;
                 case "3":
                     System.out.println("Voltando para o menu principal.");
